@@ -10,6 +10,6 @@ This repository contains all the submissions for the Computer Networks course. I
 To showcase hands-on learning and applications of computer network theories. This repository is designed as a comprehensive reference for anyone interested in the practical aspects of networking.
 
 ## Technologies & Tools to be used in the course
-Networking Tools: Wireshark, GNS3, Cisco Packet Tracer
+Networking Tools: Wireshark
 Protocols: TCP/IP, UDP, HTTP, DNS
 Languages: Python, C
