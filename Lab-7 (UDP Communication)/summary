@@ -1,1 +1,18 @@
+# Summary
 
+1) Server creates a socket, binds it to an address and port, and waits for messages.
+
+2) Client creates a socket and sends messages to the server.
+
+3) Server receives messages and optionally sends a response.
+
+
+# Applications
+
+1) UDP is connectionless – No connect(), just sendto() and recvfrom().
+
+2) Faster than TCP – No handshake, minimal overhead.
+
+3) Unreliable – No guarantee of delivery, ordering, or retransmission.
+
+4) Good for real-time applications like gaming and live-streaming.
