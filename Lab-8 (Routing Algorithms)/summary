@@ -1,1 +1,13 @@
+LSR- Link State Routing:
+- Each router builds a complete map of the network.
+- Routers share link state info with all other routers.
+- Uses Dijkstra’s algorithm for shortest path calculation.
+- Example: OSPF
+- Faster convergence, more accurate but complex and resource-heavy.
 
+DSR– Distance Vector Routing:
+- Each router only knows its neighbors and their distance.
+- Routers share info only with direct neighbors.
+- Uses Bellman-Ford algorithm to find shortest paths.
+- Example: Routing Information Protocol
+- Simple, uses less memory, but slower convergence and risk of routing loops.
